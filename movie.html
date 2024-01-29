@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movie website</title>
-    <link rel="stylesheet" href="movie.css" />
+    <link rel="stylesheet" href="assets/CSS/movie.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
       rel="stylesheet"
@@ -25,16 +25,16 @@
         </div>
         <div class="menuContainer">
           <ul class="menuList">
-            <li class="menuListItem active">Home</li>
-            <li class="menuListItem">Movies</li>
-            <li class="menuListItem">Series</li>
-            <li class="menuListItem">Popular</li>
-            <li class="menuListItem">Trends</li>
+            <li class="menuListItem active"><a href="#home">Home</a></li>
+            <li class="menuListItem"><a href="#movies">Movies</a></li>
+            <li class="menuListItem"><a href="#series">Series</a></li>
+            <li class="menuListItem"><a href="#popular">Popular</a></li>
+            <li class="menuListItem"><a href="#trends">Trends</a></li>
           </ul>
         </div>
         <div class="profileContainer">
           <img
-            src="img/profile.jpg"
+            src="assets/img/profile.jpg"
             alt=""
             width="32"
             height="32"
@@ -67,8 +67,8 @@
           class="featureContent"
           style="
             background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515),
-              url('img/f-1.jpg');" id="home">
-          <img src="img/f-t-1.png" alt="" class="featureTitle" />
+              url('assets/img/f-1.jpg');" id="home">
+          <img src="assets/img/f-t-1.png" alt="" class="featureTitle" />
           <p class="featureDesc">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
             mollitia omnis eius ex et optio iure nostrum ad aliquam, nisi
@@ -78,12 +78,12 @@
 
 
         <!-- =============================   1st Row   ========================== -->
-        <div class="movieListContainer">
+        <div class="movieListContainer" id="home">
           <h1 class="movieListTitle">NEW RELEASES</h1>
           <div class="movieListWrapper">
             <div class="movieList">
               <div class="movieListItem">
-                <img src="img/28.jpg" alt="" class="movieListItemImg" />
+                <img src="assets/img/28.jpg" alt="" class="movieListItemImg" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -93,7 +93,7 @@
               </div>
 
               <div class="movieListItem">
-                <img src="img/2.jpeg" alt="" class="movieListItemImg" />
+                <img src="assets/img/2.jpeg" alt="" class="movieListItemImg" />
                 <span class="movieListItemTitle">Star Wars</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -103,7 +103,7 @@
               </div>
 
               <div class="movieListItem">
-                <img src="img/3.jpg" alt="" class="movieListItemImg" />
+                <img src="assets/img/3.jpg" alt="" class="movieListItemImg" />
                 <span class="movieListItemTitle">Storm</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -113,7 +113,7 @@
               </div>
 
               <div class="movieListItem">
-                <img src="img/4.jpg" alt="" class="movieListItemImg" />
+                <img src="assets/img/4.jpg" alt="" class="movieListItemImg" />
                 <span class="movieListItemTitle">1917</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -123,7 +123,7 @@
               </div>
 
               <div class="movieListItem">
-                <img src="img/5.jpg" alt="" class="movieListItemImg" />
+                <img src="assets/img/5.jpg" alt="" class="movieListItemImg" />
                 <span class="movieListItemTitle">Avangers</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -133,7 +133,7 @@
               </div>
 
               <div class="movieListItem">
-                <img src="img/6.jpg" alt="" class="movieListItemImg" />
+                <img src="assets/img/6.jpg" alt="" class="movieListItemImg" />
                 <span class="movieListItemTitle">Fast & Furious</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -143,7 +143,7 @@
               </div>
 
               <div class="movieListItem">
-                <img src="img/7.jpg" alt="" class="movieListItemImg" />
+                <img src="assets/img/7.jpg" alt="" class="movieListItemImg" />
                 <span class="movieListItemTitle">Thor</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -159,12 +159,12 @@
 
         <!-- =============================   2nd Row   ========================== -->
 
-        <div class="movieListContainer">
+        <div class="movieListContainer" id="movies">
           <h1 class="movieListTitle">New Movies</h1>
           <div class="movieListWrapper">
             <div class="movieList">
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/27.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/27.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -173,7 +173,7 @@
                 <button class="movieListItemButton">Watch</button>
               </div>
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/9.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/9.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -182,7 +182,7 @@
                 <button class="movieListItemButton">Watch</button>
               </div>
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/10.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/10.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -191,7 +191,7 @@
                 <button class="movieListItemButton">Watch</button>
               </div>
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/11.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/11.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -200,7 +200,7 @@
                 <button class="movieListItemButton">Watch</button>
               </div>
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/12.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/12.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -209,7 +209,7 @@
                 <button class="movieListItemButton">Watch</button>
               </div>
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/26.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/26.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -218,7 +218,7 @@
                 <button class="movieListItemButton">Watch</button>
               </div>
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/25.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/25.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -235,10 +235,10 @@
           class="featureContent"
           style="
             background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515),
-              url('img/f-2.jpg');
+              url('assets/img/f-2.jpg');
           "
         >
-          <img class="featured-title" src="img/f-t-2.png" alt="" />
+          <img class="featured-title" src="assets/img/f-t-2.png" alt="" />
           <p class="featureDesc">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto illo
             dolor deserunt nam assumenda ipsa eligendi dolore, ipsum id fugiat
@@ -251,12 +251,12 @@
 
         <!-- =============================   3rd Row   ========================== -->
 
-        <div class="movieListContainer">
+        <div class="movieListContainer" id="series">
           <h1 class="movieListTitle">New Web Series</h1>
           <div class="movieListWrapper">
             <div class="movieList">
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/29.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/29.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -265,7 +265,7 @@
                 <button class="movieListItemButton">Watch</button>
               </div>
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/2.jpeg" alt="" />
+                <img class="movieListItemImg" src="assets/img/2.jpeg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -274,7 +274,7 @@
                 <button class="movieListItemButton">Watch</button>
               </div>
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/15.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/15.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -283,7 +283,7 @@
                 <button class="movieListItemButton">Watch</button>
               </div>
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/3.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/3.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -292,7 +292,7 @@
                 <button class="movieListItemButton">Watch</button>
               </div>
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/4.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/4.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -301,7 +301,7 @@
                 <button class="movieListItemButton">Watch</button>
               </div>
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/5.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/5.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -310,7 +310,7 @@
                 <button class="movieListItemButton">Watch</button>
               </div>
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/24.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/24.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -325,12 +325,12 @@
 
         <!-- =============================   4th Row   ========================== -->
 
-        <div class="movieListContainer">
+        <div class="movieListContainer" id="popular">
           <h1 class="movieListTitle">Popular Movies</h1>
           <div class="movieListWrapper">
             <div class="movieList">
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/17.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/17.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -339,7 +339,7 @@
                 <button class="movieListItemButton">Watch</button>
               </div>
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/23.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/23.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -348,7 +348,7 @@
                 <button class="movieListItemButton">Watch</button>
               </div>
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/19.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/19.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -357,7 +357,7 @@
                 <button class="movieListItemButton">Watch</button>
               </div>
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/7.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/7.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -366,7 +366,7 @@
                 <button class="movieListItemButton">Watch</button>
               </div>
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/22.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/22.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -375,7 +375,7 @@
                 <button class="movieListItemButton">Watch</button>
               </div>
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/20.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/20.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -384,7 +384,7 @@
                 <button class="movieListItemButton">Watch</button>
               </div>
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/21.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/21.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -398,12 +398,12 @@
         </div>
 
         <!-- =============================   5th Row   ========================== -->
-        <div class="movieListContainer">
+        <div class="movieListContainer" id="trends">
           <h1 class="movieListTitle">New Trends</h1>
           <div class="movieListWrapper">
             <div class="movieList">
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/29.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/29.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -412,7 +412,7 @@
                 <button class="movieListItemButton">Watch</button>
               </div>
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/2.jpeg" alt="" />
+                <img class="movieListItemImg" src="assets/img/2.jpeg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -421,7 +421,7 @@
                 <button class="movieListItemButton">Watch</button>
               </div>
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/15.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/15.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -430,7 +430,7 @@
                 <button class="movieListItemButton">Watch</button>
               </div>
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/3.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/3.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -439,7 +439,7 @@
                 <button class="movieListItemButton">Watch</button>
               </div>
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/4.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/4.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -448,7 +448,7 @@
                 <button class="movieListItemButton">Watch</button>
               </div>
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/5.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/5.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -457,7 +457,7 @@
                 <button class="movieListItemButton">Watch</button>
               </div>
               <div class="movieListItem">
-                <img class="movieListItemImg" src="img/24.jpg" alt="" />
+                <img class="movieListItemImg" src="assets/img/24.jpg" alt="" />
                 <span class="movieListItemTitle">Her</span>
                 <p class="movieListItemDesc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
@@ -472,6 +472,6 @@
 
       </div>
     </div>
-    <script src="movie.js"></script>
+    <script src="assets/JS/movie.js"></script>
   </body>
 </html>
